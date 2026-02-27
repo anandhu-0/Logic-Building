@@ -120,3 +120,43 @@ This is a set patterns that are help to build basic logic in programming.
 * *
 *
 ```
+
+### pattern:12
+
+```text
+A 
+A B
+A B C
+A B C D
+A B C D E
+```
+
+### pattern:13
+
+```text
+A B C D E 
+A B C D
+A B C
+A B
+A
+```
+
+### pattern:14
+
+```text
+A 
+B B
+C C C
+D D D D
+E E E E E
+```
+
+### pattern:15
+
+```text
+     A 
+      A B A
+    A B C B A
+  A B C D C B A
+A B C D E D C B A 
+```

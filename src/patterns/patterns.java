@@ -158,5 +158,80 @@ public class patterns {
             }
         }
 
+        static void pattern12(int n){
+
+            for(int row = 1;row <= n;row++){
+
+                char ch = 'A';
+                for(int col = 1;col <= row;col++){
+
+                    System.out.print(ch + " ");
+                    ch++;
+                }
+                System.out.println();
+            }
+        }
+
+        static void pattern13( int n){
+
+            for(int row = n;row >=1;row--){
+                char ch ='A';
+                for(int col = 1;col <= row;col++){
+
+                    System.out.print(ch + " ");
+                    ch++;
+                }
+                System.out.println();
+            }
+        }
+
+        static void pattern14( int n){
+
+            //char ch = 'A';
+            for(int row = 1;row <= n;row++){
+                
+                char ch = (char)('A' + row - 1);
+                for(int col = 1;col <= row;col++){
+
+                    System.out.print(ch + " ");
+                    
+                }
+                //ch++;
+                System.out.println();
+            }
+        }
+
+        static void pattern15(  int n){
+
+            for(int row = 1;row <= n;row++){
+
+                char ch = 'A';
+                for(int spaces = 0;spaces < n - row;spaces++){
+                    System.out.print("  ");
+                }
+                for(int col = 1;col <= 2*row - 1;col++){
+                    if(col > row){
+                        ch = (char)(ch  - 2 );
+                        System.out.print(ch + " ");
+                        ch++;
+                        
+                    }
+                    else{
+                        
+                        System.out.print(ch + " ");
+                        ch++;
+                    }
+
+                    
+                    
+                }
+                
+                System.out.println();
+                
+
+
+            }
+        }
+
 
 }

@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[] args) {
 
-         patterns.pattern1(5);
+         patterns.pattern15(5);
 
     }
 }
