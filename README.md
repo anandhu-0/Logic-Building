@@ -1,6 +1,6 @@
 # logic building process:
 
-This is a set patterns that are help to build basic logic in programming.
+This is a set patterns  and basic programs that are help to build basic logic in programming.
 
 
 ### pattern:1 (inverted right angled triangle)
@@ -154,7 +154,7 @@ E E E E E
 ### pattern:15
 
 ```text
-     A 
+        A 
       A B A
     A B C B A
   A B C D C B A
