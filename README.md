@@ -160,3 +160,15 @@ E E E E E
   A B C D C B A
 A B C D E D C B A 
 ```
+
+### converting number to words
+
+```
+enter a number: 145
+one four five 
+
+enter a number: -145
+negative
+one four five 
+
+```
