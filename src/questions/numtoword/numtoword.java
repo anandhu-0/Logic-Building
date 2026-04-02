@@ -30,7 +30,6 @@ public class numtoword {
     }
     public static void main(String[] args) {
         
-        new numtoword();
         Scanner sc = new Scanner(System.in);
         System.out.println("enter a digit: ");
         int number = sc.nextInt();
