@@ -172,3 +172,19 @@ negative
 one four five 
 
 ```
+### number system conversions
+
+```
+1. Decimal to Binary
+2. Binary to Decimal
+
+example: 
+
+*Enter a decimal number: 
+ 50
+ Binary representation: 110010
+
+*Enter a binary number: 
+ 110010
+ Decimal representation: 50
+```
